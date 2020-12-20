@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    font-family: Corbel, sans-serif;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.icon-set a {
+    padding: 3px;
+    text-decoration: none;
+}
