@@ -4,14 +4,31 @@ html, body {
 
 body {
     background-color: black;
-    font-family: Corbel, sans-serif;
 }
 
 .text-gray {
-    color: gray;
+    color: lightgray;
 }
 
 .icon-set a {
     padding: 3px;
     text-decoration: none;
+}
+
+.typewriter {
+    font: 2em monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid gray;
+    animation: typing 3s steps(14, end), blinking 0.5s step-end infinite;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+}
+
+@keyframes blinking {
+    0%, 100% {border-color: gray}
+    50% {border-color: transparent}
 }
