@@ -1,34 +1,51 @@
-html, body {
-    height: 100%;
+#logo {
+    font-family: "Segoe UI", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    line-height: normal;
 }
-
-body {
-    background-color: black;
+#logo-underline {
+    width: 40%;
+    height: 2px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 15px;
 }
-
-.text-gray {
-    color: lightgray;
+#bio {
+    max-width: 600px;
 }
-
+a.on-hover-underline {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+#img1 {
+    position: relative;
+    z-index: 3;
+    transform: rotate(-3deg);
+}
+#img2 {
+    position: relative;
+    z-index: 2;
+    right: 30px;
+    bottom: 30px;
+    transform: rotate(3deg);
+}
+#img3 {
+    position: relative;
+    z-index: 1;
+    bottom: 70px;
+    transform: rotate(-6deg);
+}
 .icon-set a {
     padding: 3px;
     text-decoration: none;
 }
-
-.typewriter {
-    font: 2em monospace;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 2px solid gray;
-    animation: typing 3s steps(14, end), blinking 0.5s step-end infinite;
+.link-gray {
+    color: #333;
 }
-
-@keyframes typing {
-    from {width: 0}
-    to {width: 100%}
+.link-gray:hover {
+    color: #333 !important;
 }
-
-@keyframes blinking {
-    0%, 100% {border-color: gray}
-    50% {border-color: transparent}
+.icon-set:hover a {
+    color: darkgray;
 }
