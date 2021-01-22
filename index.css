@@ -11,9 +11,6 @@
     margin-top: 10px;
     margin-left: 15px;
 }
-#bio {
-    max-width: 600px;
-}
 a.on-hover-underline {
     text-decoration: none;
     border-bottom: 1px solid black;
@@ -35,10 +32,6 @@ a.on-hover-underline {
     z-index: 1;
     bottom: 70px;
     transform: rotate(-6deg);
-}
-.icon-set a {
-    padding: 3px;
-    text-decoration: none;
 }
 .link-gray {
     color: #333;
